@@ -16,7 +16,9 @@
     "url": "https://github.com/itzik415/traveling-app/issues"
   },
   "homepage": "https://github.com/itzik415/traveling-app#readme",
-  "dependencies": {},
+  "dependencies": {
+    "hoek": "^5.0.3"
+  },
   "devDependencies": {
     "node-sass": "^4.9.2"
   }
