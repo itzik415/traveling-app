@@ -30,6 +30,10 @@
             border-bottom: 3px solid $color-secondry-dark;
         }
 
+        @include respond(tab-port) {
+            width: 100%;
+        }
+
 
     }
 
@@ -73,6 +77,11 @@
         position: absolute;
         left: 0;
         top: -.4rem;
+
+        @include respond(tab-port) {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
 
         &::after {
             content: "";

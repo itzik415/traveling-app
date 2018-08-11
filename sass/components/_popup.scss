@@ -21,11 +21,23 @@
         opacity: 0;
         transform: translate(-50%, -50%) scale(.25);
         transition: all .5s .2s;
+
+        @include respond(tab-land) {
+            width: 90%;
+        }
     }
 
     &__left{
         width: 33.3333333%;
         display: table-cell;
+
+        @include respond(tab-land) {
+            width: 45%;
+        }
+
+        @include respond(tab-port) {
+            width: 0%;
+        }
     }
 
     &__right{
@@ -33,11 +45,27 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+
+        @include respond(tab-land) {
+            width: 55%;
+        }
+
+        @include respond(tab-port) {
+            width: 100%;
+        }
+
+        @include respond(phone) {
+            padding: 2rem;
+        }
     }
 
     &__img{
         display: block;
         width: 100%;
+
+        @include respond(tab-port) {
+            width: 0%;
+        }
 
     }
 
@@ -83,6 +111,10 @@
             display: inline-block;
             transition: all .2s;
             line-height: 1;
+
+            @include respond(phone) {
+                right: 1rem;
+            }
         }
 
         &:hover {
