@@ -5,12 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-
         <link rel="stylesheet" href="css/icon-font.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         
-        <title>Natours | Exciting tours for adventurous people</title>
+        <title>Israel | Exciting tours for adventurous people</title>
     </head>
     <body>
         <div class="navigation">
@@ -21,31 +22,27 @@
             <div class="navigation__background">&nbsp;</div>
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Natous</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+                    <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>01</span>About Israel</a></li>
+                    <li class="navigation__item"><a href="#section-features" class="navigation__link"><span>02</span>Your benefits</a></li>
+                    <li class="navigation__item"><a href="#section-tours" class="navigation__link"><span>03</span>Popular tours</a></li>
+                    <li class="navigation__item"><a href="#section-stories" class="navigation__link"><span>04</span>Stories</a></li>
+                    <li class="navigation__item"><a href="#section-book" class="navigation__link"><span>05</span>Book now</a></li>
                 </ul>
             </nav>
         </div>
         <header class="hedear">
-            <div class="hedear__logo-box">
-                <img src="img/logo-white.png" alt="Logo" class="hedear__logo">
-            </div>
-
             <div class="hedear__text-box">
                 <h1 class="heading-primary">
-                    <span class="heading-primary--main">Outdoors</span>
-                    <span class="heading-primary--sub">is where life happens</span>
+                    <span class="heading-primary--main">Israel</span>
+                    <span class="heading-primary--sub">Where it all began</span>
                 </h1>
 
-                <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+                <a href="#section-tours" id="header-btn" class="btn btn--white btn--animated">Discover our tours</a>
             </div> 
         </header>
 
         <main>
-            <section class="section-about">
+            <section class="section-about" id="section-about">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Exciting tours for adventurous people
@@ -54,45 +51,46 @@
 
                 <div class="row">
                         <div class="col-1-of-2">
-                            <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
+                            <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love</h3>
                             <p class="paragraph">
-                                Aliquam ac iaculis dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                With the sights. With the smells. With the people. Our trip will change your life.
+
                             </p>
                             <h3 class="heading-tertiary u-margin- bottom-small">Live adventures like you never live before</h3>
                             <p class="paragraph">
-                                Aliquam ac iaculis dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                We will make sure that you will have the best trip of your life. Our trips are led by Israel experts and you will get a taste of all that Israel has to offer.
                             </p>
 
-                            <a href="#" class="btn-text">Learn more &rarr;</a>
+                            <a href="#section-tours" id="learn-more-btn" class="btn-text">Learn more &rarr;</a>
                         </div>
                         <div class="col-1-of-2">
                             <div class="composition">
-                                <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
-                                <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                                <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+                                <img src="img/callie-joseph.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                                <img src="img/milada-vigerova.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+                                <img src="img/rob-bye.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
                             </div>
                         </div>
                     </div>
 
             </section>
 
-            <section class="section-features">
+            <section class="section-features" id="section-features">
                 <div class="row">
                     <div class="col-1-of-4">
                         <div class="feature-box">
                             <i class="feature-box__icon icon-basic-world"></i>
-                            <h3 class="heading-tertiary u-margin-bottom-small">Expolore the world</h3>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Meet culture</h3>
                             <p class="feature-box__text">
-                                Aliquam ac iaculis dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                Travel to an ancient land: learn a new langauge, taste vibrant foods, and discover one of the world's oldest religions.
                             </p>
                         </div>
                     </div>
                     <div class="col-1-of-4">
                         <div class="feature-box">
                             <i class="feature-box__icon icon-basic-compass"></i>
-                            <h3 class="heading-tertiary u-margin-bottom-small">Meet nature</h3>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Explore Israel</h3>
                             <p class="feature-box__text">
-                                Aliquam ac iaculis dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                Visit holy sites, such as the Western Wall, and experience the unique nightlife of the city that never sleeps.
                             </p>
                         </div>
                     </div>
@@ -101,22 +99,22 @@
                             <i class="feature-box__icon icon-basic-map"></i>
                             <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
                             <p class="feature-box__text">
-                                Aliquam ac iaculis dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                Our tours will provide you with the knowledge you need to experience Israel at the fullest (each one of the trips include free time).
                             </p>
                         </div>
                     </div>
                     <div class="col-1-of-4">
                         <div class="feature-box">
                             <i class="feature-box__icon icon-basic-heart"></i>
-                            <h3 class="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
+                            <h3 class="heading-tertiary u-margin-bottom-small">feed your soul</h3>
                             <p class="feature-box__text">
-                                Aliquam ac iaculis dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                The most spiritual location on Earth, Israel is sacred to Judaism, Christianity and Islam. Speak to holy leaders and visit holy sites.
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Most popular tours
@@ -131,11 +129,11 @@
                                     &nbsp;
                                 </div>
                                 <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--1">The Sea Explorer</span>
+                                    <span class="card__heading-span card__heading-span--1">The history buff </span>
                                 </h4>
                                 <div class="card__details">
                                     <ul class="">
-                                        <li>3 day tours</li>
+                                        <li>5 day tours</li>
                                         <li>Up to 30 people</li>
                                         <li>2 tour guides</li>
                                         <li>Sleep in cozy hotels</li>
@@ -147,7 +145,7 @@
                                 <div class="card__cta">
                                     <div class="card__price-box">
                                         <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$297</p>
+                                        <p class="card__price-value">$497</p>
                                     </div>
                                     <a href="#popup" class="btn btn--white"> Book now!</a>
                                 </div>
@@ -161,15 +159,15 @@
                                         &nbsp;
                                     </div>
                                     <h4 class="card__heading">
-                                        <span class="card__heading-span card__heading-span--2">The Forest Hiker</span>
+                                        <span class="card__heading-span card__heading-span--2">The nightlife junkie</span>
                                     </h4>
                                     <div class="card__details">
                                         <ul class="">
-                                            <li>7 day tours</li>
-                                            <li>Up to 40 people</li>
-                                            <li>6 tour guides</li>
-                                            <li>Sleep in provided tents</li>
-                                            <li>Difficulty: medium</li>
+                                            <li>5 day tours</li>
+                                            <li>Up to 15 people</li>
+                                            <li>1 tour guide</li>
+                                            <li>Sleep in cozy hotels</li>
+                                            <li>Difficulty: eazy</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -177,7 +175,7 @@
                                     <div class="card__cta">
                                         <div class="card__price-box">
                                             <p class="card__price-only">Only</p>
-                                            <p class="card__price-value">$497</p>
+                                            <p class="card__price-value">$597</p>
                                         </div>
                                         <a href="#popup" class="btn btn--white"> Book now!</a>
                                     </div>
@@ -191,15 +189,15 @@
                                     &nbsp;
                                 </div>
                                 <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--3">The Sea Explorer</span>
+                                    <span class="card__heading-span card__heading-span--3">The overachiever</span>
                                 </h4>
                                 <div class="card__details">
                                     <ul class="">
-                                        <li>5 day tours</li>
-                                        <li>Up to 15 people</li>
+                                        <li>14 day tours</li>
+                                        <li>Up to 30 people</li>
                                         <li>3 tour guides</li>
-                                        <li>Sleep in provided tents</li>
-                                        <li>Difficulty: hard</li>
+                                        <li>Sleep in cozy hotels</li>
+                                        <li>Difficulty: medium</li>
                                     </ul>
                                 </div>
                             </div>
@@ -207,7 +205,7 @@
                                 <div class="card__cta">
                                     <div class="card__price-box">
                                         <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$897</p>
+                                        <p class="card__price-value">997</p>
                                     </div>
                                     <a href="#popup" class="btn btn--white"> Book now!</a>
                                 </div>
@@ -217,15 +215,14 @@
                 </div>
 
                 <div class="u-center-text u-margin-top-huge">
-                    <a href="#" class="btn btn--green">Discover all tours</a>
+                    <a href="#" class="btn btn--blue">Discover all tours</a>
                 </div>
             </section>
 
-            <section class="section-stories">
+            <section class="section-stories" id="section-stories">
                 <div class="bg-video">
                     <video class="bg-video__content" autoplay muted loop>
-                        <source src="img/video.mp4" type="video/mp4">
-                        <source src="img/video.webm" type="video/webm">
+                        <source src="img/Pool-games.mp4" type="video/mp4">
                         Your browser is not supported!
                     </video>
                 </div>
@@ -237,12 +234,12 @@
                 <div class="row">
                     <div class="story">
                         <figure class="story__shape">
-                            <img src="img/nat-8.jpg" alt="Person on a tour" class="story__img">
-                            <figcaption class="story__caption">Marry Smith</figcaption>
+                            <img src="img/toa-heftiba.jpg" alt="Person on a tour" class="story__img">
+                            <figcaption class="story__caption">Ted Smith</figcaption>
                         </figure>
                         <div class="story__text">
                             <h3 class="heading-tertiary u-margin-bottom-small">I had the best week with my family</h3>
-                            <p>Aliquam ac iaculis dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Aliquam ac iaculis dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Pellentesque habitant morbi </p>
+                            <p>Tel-Aviv is a youthful, modern metropolis with a diverse population, it dates back only to 1909. Clubs, bars, a thriving arts community, gay life and beaches attract artists, musicians and young professionals to Tel Aviv's more secular scene. Its UNESCO-designated Bauhaus architecture has won the city the moniker "The White City." Walk, drive or catch cabs between the cultural exhibition pavilions of Haaretz Museum, historic Independence Hall Museum, bustling Carmel Market and Old Jaffa's boardwalk. </p>
                         </div>
                     </div>
                 </div>
@@ -253,17 +250,14 @@
                             <figcaption class="story__caption">Jack Willson</figcaption>
                         </figure>
                         <div class="story__text">
-                            <h3 class="heading-tertiary u-margin-bottom-small">WOW! My life are complitly different now</h3>
-                            <p>Aliquam ac iaculis dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Aliquam ac iaculis dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Pellentesque habitant morbi </p>
+                            <h3 class="heading-tertiary u-margin-bottom-small">My life are complitly change</h3>
+                            <p>Religious pilgrims have been traveling to Jerusalem for centuries, yet you don’t have to share their zeal in order to appreciate this city’s profound cultural and historical significance. I saw the major sights, and also had plenty of time to walk through the streets and simply immerse myself in the daily life of such an ancient and revered place. </p>
                         </div>
                     </div>
                 </div>
-                <div class="u-center-text u-margin-top-huge">
-                    <a href="#" class="btn-text">Read all stories &rarr;</a>
-                </div>
             </section>
 
-            <section class="section-book">
+            <section class="section-book" id="section-book">
                 <div class="row">
                     <div class="book">
                         <div class="book__form">
@@ -298,7 +292,7 @@
                                     </div>
                                 </div>
                                 <div class="form__group">
-                                    <button class="btn btn--green">Next step &rarr;</button>
+                                    <button class="btn btn--blue">Next step &rarr;</button>
                                 </div>
                             </form>
                         </div>
@@ -307,43 +301,32 @@
             </section>
         </main>
         <footer class="footer">
-            <div class="footer__logo-box">
-                <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
-            </div>
             <div class="row">
-                <div class="col-1-of-2">
-                    <div class="footer__navigation">
-                        <ul class="footer__list">
-                            <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Carrers</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-1-of-2">
-                    <p class="footer__copyright">Built with &hearts; by &ensp;<a href="#" class="footer__link">Itzik Shaoulian</a> . All rights reserved</p>
-                </div>
+                <p class="footer__copyright">Built with &hearts; by &ensp;<a href="#" class="footer__link">Itzik Shaoulian</a> . All rights reserved</p>
             </div>
         </footer>
         <div class="popup" id="popup">
             <div class="popup__content">
                 <div class="popup__left">
-                    <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
-                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+                    <img src="img/faruk-kaymak.jpg" alt="Tour photo" class="popup__img">
+                    <img src="img/roxanne-desgagnes-2.jpg" alt="Tour photo" class="popup__img">
                 </div>
                 <div class="popup__right">
                     <a href="#section-tours" class="popup__close">&times;</a>
                     <h2 class="u-margin-bottom-small heading-secondary">Start booking now</h2>
                     <h3 class="u-margin-bottom-small heading-tertiary">Important &ndash; Please read these terms before booking</h3>
                     <p class="popup__text">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Our Website is for travels. We don't provide, own or control any of the travel services and products that you will access through the trips, such as flights,
+                        accommodations, rental cars, or travel insurance (the “Travel Products”). The Travel Products are owned, controlled or made available by third parties 
+                        (the “Travel Providers”) either directly (e.g. airline) or as an agent (e.g. online travel agency).
+                        The Travel Providers are responsible for the Travel Products.
+                        The Travel Provider’s terms and privacy policies apply to your booking so you must agree to, and understand those terms.
                     </p>
-                    <a href="#" class="btn btn--green">Book now</a>
+                    <a href="#" class="btn btn--blue">Book now</a>
                 </div>
             </div>
         </div>
         
     </body>
+    <script type="text/javascript" src="scripts/script.js"></script>
 </html>
