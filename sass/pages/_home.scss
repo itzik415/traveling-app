@@ -6,7 +6,7 @@
 
 .section-features {
     padding: 20rem 0;
-    background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), url(../img/nat-4.jpg);
+    background-image: linear-gradient(to right bottom, rgba($color-tertiary-light-1, 0.7), rgba($color-tertiary-light, 0.7)), url(../img/dan-gold.jpg);
     background-size: cover;
     transform: skewY(-7deg);
     margin-top: -10rem;
@@ -42,7 +42,7 @@
 
 .section-book {
     padding: 15rem 0;
-    background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+    background-image: linear-gradient(to right bottom, $color-tertiary-light-1, $color-tertiary-light);
 
     @include respond(tab-port) {
         padding: 10rem 0;
@@ -54,7 +54,7 @@
                                         rgba($color-white, .9) 0%,
                                         rgba($color-white, .9) 50%, 
                                         transparent 50%), 
-                                        url(../img/nat-10.jpg);
+                                        url(../img/adam-jang.jpg);
     background-size: 100%;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
@@ -64,7 +64,7 @@
             rgba($color-white, .9) 0%,
             rgba($color-white, .9) 65%, 
             transparent 65%), 
-            url(../img/nat-10.jpg); 
+            url(../img/adam-jang.jpg); 
         background-size: cover;
     }
 
@@ -72,7 +72,7 @@
         background-image: linear-gradient(to right,
             rgba($color-white, .9) 0%,
             rgba($color-white, .9) 100%), 
-            url(../img/nat-10.jpg); 
+            url(../img/adam-jang.jpg); 
     }
 
     &__form {

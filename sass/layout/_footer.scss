@@ -60,7 +60,7 @@
 
         &:hover,
         &:active {
-            color: $color-primary;
+            color: $color-tertiary-light;
             box-shadow: 0 1rem 2rem  rgba($color-black, .4);
             transform: rotate(5deg) scale(1.3);
         }
@@ -69,8 +69,7 @@
     &__copyright {
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;
-        width: 80%;
-        float: right;
+        text-align: center;
 
         @include respond(tab-port) {
             width: 100%;

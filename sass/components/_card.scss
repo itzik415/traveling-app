@@ -30,7 +30,7 @@
             }
 
             &-2 {
-                background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+                background-image: linear-gradient(to right bottom, $color-grey-dark-2, $color-grey-dark-3);
             }
 
             &-3 {
@@ -61,15 +61,15 @@
         border-top-right-radius: 3px;
 
         &--1 {
-            background-image: linear-gradient(to right bottom, $color-secondry-light, $color-secondry-dark), url(../img/nat-5.jpg);
+            background-image: linear-gradient(to right bottom, $color-secondry-light, $color-secondry-dark), url(../img/rob-bye-1.jpg);
         }
 
         &--2 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/nat-6.jpg);
+            background-image: linear-gradient(to right bottom, $color-grey-dark-2, $color-grey-dark-3), url(../img/zoltan-tasi.jpg);
         }
 
         &--3 {
-            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/nat-7.jpg);
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/aviv-ben-or.jpg);
         }
     }
 
@@ -96,7 +96,7 @@
         }
 
         &--2 {
-            background-image: linear-gradient(to right bottom, rgba($color-primary-light, .85), rgba($color-primary-dark, .85))
+            background-image: linear-gradient(to right bottom, rgba($color-grey-dark-2, .85), rgba($color-grey-dark-3, .85))
         }
 
         &--3 {

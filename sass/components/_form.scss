@@ -9,7 +9,7 @@
         color: inherit;
         padding: 1.5rem 2rem;
         border-radius: 2px;
-        background-color: rgba($color-white, .5);
+        background-color: rgba(rgb(233, 233, 233), .5);
         border: none;
         border-bottom: 3px solid transparent;
         width: 90%;
@@ -71,7 +71,7 @@
     &__radio-button {
         height: 3rem;
         width: 3rem;
-        border: 5px solid $color-primary;
+        border: 5px solid $color-tertiary-light;
         border-radius: 50%;
         display: inline-block;
         position: absolute;

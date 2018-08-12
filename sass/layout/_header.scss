@@ -1,9 +1,9 @@
 
 .hedear {
     height: 95vh;
-    background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), url(../img/hero.jpg);
+    background-image: linear-gradient(to right bottom, rgba($color-tertiary-light-1, 0.5), rgba($color-tertiary-light, 0.5)), url(../img/josh-appel.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
     position: relative;
 
     /*For giving a shape to the header*/
