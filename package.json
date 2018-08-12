@@ -1,0 +1,25 @@
+{
+  "name": "traveling-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itzik415/traveling-app.git"
+  },
+  "author": "Itzik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itzik415/traveling-app/issues"
+  },
+  "homepage": "https://github.com/itzik415/traveling-app#readme",
+  "dependencies": {
+    "hoek": "^5.0.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
