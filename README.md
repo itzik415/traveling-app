@@ -5,92 +5,56 @@ The Isra-App is a travel guide for tourists wanting to visit Israel. The app pro
 
 #### Watch demo:
 <a href="https://www.youtube.com/watch?v=YhcJyAnwu-Q&feature=youtu.be" target="_blank">
-  ![](images/photo-1-1.png.png)
+  <img src="/images/video-image.png" width="400px">
 </a>
 
 #### Screenshots:
-![](https://raw.githubusercontent.com/itzik415/traveling-app/master/path/to/img.png)
-
-
-
-## Team Members & Roles:
-* [Itzik Shaoulian](https://github.com/itzik415) "The soul of the team, obviously"
-* [Aaron Gross](https://github.com/ponchieponcho) "Bruce Willis of the team"
-* [Illia Chaban](https://github.com/illiaChaban) "Had to be motivated by the app to finish the app"
-
+<div style=" display: flex;">
+  <img src="/images/photo-1-1.png" width="300px">
+  <img src="/images/photo-1-2.png" width="300px">
+  <img src="/images/photo-1-3.png" width="300px">
+  <img src="/images/photo-1-4.png" width="300px">
+  <img src="/images/photo-1-5.png" width="300px">
+</div>
 
 ## Technologies used:
- * React 
- * PostgreSQL 
- * Redux
- * Express.js 
- * JavaScript
- * Node.js
- * CSS
- * Amazon EC2.
+ * HTML
+ * CSS including Sass
+ * Javascript
 
 
 ## Code snippets:
 
-```javascript
-router.post('/getMyFriends', async (req,res) => {
-    let userId = await readBody(req).then( req => JSON.parse(req))
-    db.query(`
-        SELECT friends.friendsarray
-        FROM friends
-        WHERE friends.userid = '${userId}';
-    `)
-    .then(data => JSON.parse(data[0].friendsarray))
-    .then(async (array) => {
+```Sass
+.feature-box {
+    background-color: rgba($color-white, .8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    transition: transform .3s;
 
-        let query = '';
-        array.forEach( (friendId, i) => {
-            query += `users.userid = '${friendId}' `;
-            if ( i !== array.length - 1) query += 'OR ';
-        })
-    
-        let feed = await db.query(`
-            SELECT users.username,
-            users.avatar, users.userid
-            FROM users
-                WHERE ${query};
-        `)
-        
-        res.end(JSON.stringify(feed));
-    })
+    @include respond(tab) {
+        padding: 2rem;
+    }
 
-})
+    &__icon {
+        font-size: 6rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+        background-image: linear-gradient(to right, $color-tertiary-light, $color-tertiary-dark);
+        -webkit-background-clip: text;
+        color: transparent;
 
+        @include respond(tab) {
+            margin-bottom: 0;
+        }
+    }
 
-router.post('/getUser', async (req, res) => {
-    let userId = await readBody(req).then( req => JSON.parse(req));
-    db.one(`
-        SELECT avatar, username, userid
-        FROM users
-        WHERE userid = '${userId}';
-    `)
-    .then(user => {
-        res.end(JSON.stringify(user))
-    })
-})
-
-  
-router.post('/postCheckin', async (req, res) => {
-    let checkin = await readBody(req).then( req => JSON.parse(req));
-    let {goalid, image, description} = checkin;
-    db.query(`
-        INSERT INTO checkins VALUES(
-            '${goalid}',
-            '${image}',
-            '${description}',
-            '${new Date().toISOString()}'
-        );
-    `)
-    .then( () => res.end())
-    .catch(error => {
-        console.log(error); 
-    });
-
-})
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+    }
+}
 
 ```
