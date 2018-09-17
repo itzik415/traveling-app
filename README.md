@@ -5,7 +5,7 @@ The Isra-App is a travel guide for tourists wanting to visit Israel. The app pro
 
 #### Watch demo:
 <a href="https://www.youtube.com/watch?v=YhcJyAnwu-Q&feature=youtu.be" target="_blank">
-  ![](images/photo-1-1.png)
+  ![](images/photo-1-1.png.png)
 </a>
 
 #### Screenshots:
